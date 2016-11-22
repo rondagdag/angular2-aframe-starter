@@ -1,0 +1,16 @@
+.title {
+    position: absolute;
+    color: white;
+    z-index: 500;
+    font-size: 60px;
+    background: black;
+    padding: 10px;
+    margin: 10px;
+    opacity: 0.5;
+    font-family: Helvetica, Arial, sans-serif;
+    transition: all 0.5s ease;
+
+    &.hide {
+        opacity: 0;
+    }
+}

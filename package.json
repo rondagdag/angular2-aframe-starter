@@ -1,0 +1,64 @@
+{
+  "name": "angular2-starter",
+  "version": "1.0.0",
+  "description": "angular2 Starter",
+  "scripts": {
+    "ngc": "ngc",
+    "ngc:dev": "ngc -p ./tsconfig.json",
+    "webpack": "webpack --progress --config webpack-dev.js --optimize-minimize",
+    "start": "npm run ngc:dev && npm run webpack && webpack-dev-server --config webpack-dev.js --port 4202",
+    "build": "npm run ngc:dev && npm run webpack",
+    "ngc:prod": "ngc -p ./tsconfig-prod.json",
+    "webpack:prod": "webpack --progress --config webpack-prod.js --optimize-minimize",
+    "start:prod": "npm run ngc:prod && npm run webpack:prod && webpack-dev-server --config webpack-prod.js --port 4202",
+    "build:prod": "npm run ngc:prod && npm run webpack:prod"
+  },
+  "keywords": [
+    "angular2",
+    "typescript",
+    "webpack"
+  ],
+  "authors": [
+    "Ron Dagdag <ron@dagdag.net>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/compiler-cli": "0.6.2",
+    "@angular/core": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/platform-server": "2.0.0",
+    "aframe": "0.3.2",
+    "aframe-animation-component": "^3.0.1",
+    "aframe-bmfont-text-component": "^0.1.4",
+    "es6-promise": "3.3.0",
+    "es6-shim": "0.35.1",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.21"
+  },
+  "devDependencies": {
+    "@types/es6-shim": "0.0.31",
+    "@types/node": "6.0.38",
+    "@types/requirejs": "2.1.26",
+    "angular2-template-loader": "0.5.0",
+    "awesome-typescript-loader": "2.2.4",
+    "compression-webpack-plugin": "0.3.1",
+    "copy-webpack-plugin": "3.0.1",
+    "html-webpack-plugin": "2.22.0",
+    "http-server": "0.9.0",
+    "node-sass": "3.10.0",
+    "raw-loader": "0.5.1",
+    "reflect-metadata": "0.1.8",
+    "rimraf": "2.5.4",
+    "sass-loader": "4.0.2",
+    "ts-loader": "0.8.2",
+    "typescript": "2.0.2",
+    "typings": "1.3.3",
+    "webpack": "2.1.0-beta.21",
+    "webpack-dashboard": "0.1.8",
+    "webpack-dev-server": "1.15.1",
+    "webpack-merge": "0.14.1"
+  }
+}
