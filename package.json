@@ -1,7 +1,7 @@
 {
-  "name": "angular2-starter",
+  "name": "angular2-aframe-starter",
   "version": "1.0.0",
-  "description": "angular2 Starter",
+  "description": "angular2 aframe Starter",
   "scripts": {
     "ngc": "ngc",
     "ngc:dev": "ngc -p ./tsconfig.json",
