@@ -1,5 +1,10 @@
 # Angular Aframe 2 Starter
 
+Read more at https://www.hackster.io/RONDAGDAG/virtual-reality-angular-aframe-2-starter-6264a5
+
+Checkout all my AR/VR with IoT Experiments at https://www.hackster.io/RONDAGDAG/projects
+
+
 ## Introduction
 Welcome to Angular 2 Starter!
 based from Raúl Jiménez <elecash@gmail.com>  https://github.com/videogular/angular-connect-demo
